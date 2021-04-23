@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/store_foreground"
+        android:title="store" />
+    <item
+        android:id="@+id/card"
+        android:icon="@drawable/card_foreground"
+        android:title="@string/menu_gallery" />
+
+</group>
+
+    <item android:title="Tienda">
+    <menu>
+        <item
+            android:id="@+id/zona_de_alto_riesgo"
+            android:icon="@drawable/cube_rojo"
+            android:title="zona de alto Riesgo" />
+        <item
+            android:id="@+id/zona_de_Mediano_riesgo"
+            android:icon="@drawable/cube_amarillo"
+            android:title="zona de Mediano Riesgo" />
+        <item
+            android:id="@+id/zona_de_Bajo_riesgo"
+            android:icon="@drawable/cube_verde"
+            android:title="zona de Bajo Riesgo" />
+    </menu>
+</item>
+
+
+
+
+
+</menu>
+
+

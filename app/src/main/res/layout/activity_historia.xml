@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cafe"
+    tools:context=".Historia">
+
+    <ScrollView
+        android:layout_width="491dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="35dp"
+                android:text="     En Aguascalientes mujeres sufren secuestros, extorsiones y corrupción de menores: SESNSP"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="449dp"
+                android:layout_height="196dp"
+                android:layout_weight="1"
+                android:text=" La entidad muestra la quinta tasa más alta de secuestros por cada 100 mil habitantes de México
+12 menores de edad han sido corrompidas o inducidas a la prostitución, al exhibicionismo, o a cometer un delito
+  En la entidad se reportan, de enero a octubre, cuatro presuntas víctimas mujeres de secuestro, lo cual si bien no aparenta ser una cifra tan alarmante como la del Estado de México, donde se registraron 40, posiciona a Aguascalientes como la quinta entidad con la mayor tasa de víctimas mujeres de secuestro de todo el país por cada 100 mil mujeres; en este año se calculan .55 secuestros por cada 100 mil mujeres " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="35dp"
+                android:text="LESLIE, 31 AÑOS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="451dp"
+                android:layout_height="301dp"
+                android:layout_weight="1"
+                android:text="Leslie regresaba de cenar con su novio cuando un taxi se les atravesó y de éste se bajaron dos hombres armados. A su chico lo bajaron del coche apuntándole con una pistola en la cabeza y lo pasaron al asiento trasero. El segundo hombre se sentó en el asiento del conductor mientras Leslie permanecía aterrorizada en el lugar del copiloto Nos iban amenazando todo el rato porque nos pasearon durante mucho tiempo. No recuerdo exactamente cuánto tiempo fue porque perdí la noción del tiempo explica. Durante el secuestro le pidieron tanto a Leslie como a su pareja que permanecieran con los ojos cerrados en todo momento y mientras a su novio lo amenazaban de golpearlo con la pistola, a Leslie el conductor le tocaba la pierna y le decía que todo iba a estar bien si cooperaba.
+Después de preguntarles en numerosas ocasiones por teléfonos celulares y por tarjetas de crédito, los secuestradores los llevaron a una calle cerrada y oscura y los hicieron bajar del coche. Sólo le devolvieron a Leslie su mochila porque era del colegio y se llevaron el dinero, la cena que habían pedido para llevar y el coche.
+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="35dp"
+                android:text="MARÍA, 41 AÑOS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="349dp"
+                android:layout_weight="1"
+                android:text="Durante ocho años María estuvo casada con un policía federal adicto a las drogas y alcohólico. Ambos compartían la posesión de una propiedad en Zacatecas, pero éste falsificó su firma y la vendió. ¿Que cómo la vendió? hubo muchas tranzas y hasta el notario se prestó recuerda. María sólo se dio cuenta cuando quiso pagar el predial y su propiedad ya no aparecía en el sistema. En ese momento decidió demandar a su marido ante la Policía Federal de la Ciudad de México pero ésta no procedió. Nunca me pelaron al contrario, a él lo protegieron explica. Y fue en ese momento en el que iniciaron las amenazas de muerte, me dijo que él de la cárcel salía, pero que yo del hoyo no Ante tal situación, María decidió, aunque no sabía nada de inglés, marcharse a vivir a Estados Unidos. Hoy lucha por regularizar sus trámites con migración para su residencia y así tener más derechos en los Estados Unidos. Su hija, que también se encuentra con ella, quiere trabajar en el FBI o la Interpol para evitar en la medida de lo posible que más personas sufran injusticias de esta índole."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="35dp"
+                android:text="María del Rosario Saucedo Pizarro"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="377dp"
+                android:layout_height="360dp"
+                android:layout_weight="1"
+                android:text="Madre de un niño de cinco años de edad, María vivía con su pareja Luis Alberto Lozada García, de 25 años, en una vivienda sencilla ubicada en la región peruana de Piura, donde ambos habían iniciado una familia.
+La ilusión poco a poco llegó a su fin con discusiones y peleas que dieron paso a una ruptura definitiva de la relación por parte de María.
+Luis no aceptó esta nueva realidad e insistía en una nueva oportunidad, pero ella se mantenía firme. María lo había denunciado en varias ocasiones por agresiones en su contra.
+El peligro era latente.
+Los celos fueron la excusa de Luis para acabar con la vida de María durante la noche del 20 de noviembre. Otra discusión, otra pelea y reclamos injustificados que lo llevaron a tomar un cuchillo y apuñalarla más de diez veces.
+María suplicó, sus gritos se escucharon por toda la zona y los vecinos intentaron ayudar, pero sus esfuerzos no evitaron la tragedia que se avecinaba. Luis intentó suicidarse minutos después, sin embargo, la Policía lo evitó y ahora está en un hospital, donde se encuentra custodiado y a la espera de pagar por el atroz crimen.
+" />
+
+            <ImageView
+                android:id="@+id/imageView456"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/mujerdos"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="35dp"
+                android:text="Ana Lizbeth Polina Ramírez   "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="371dp"
+                android:layout_height="318dp"
+                android:layout_weight="1"
+                android:text="Los padres de Anita, como le decían cariñosamente, recuerdan lo mucho que le gustaba jugar en el parque y comer helados. Ella era la luz de sus ojos.
+Ana acompañó a su madre al trabajo el pasado 15 de julio en la ciudad mexicana de Benito Juárez, estado de Nuevo León, cuando fue raptada por un desconocido que se acercó para conversar.
+Los padres de la pequeña se preocuparon al no hallarla en los alrededores y llamaron a emergencias para iniciar la búsqueda. Cada minuto contaba y ellos solo querían nada más que la regrese, que nos la regrese.
+ Tras 48 horas de angustias y desesperación, la familia de Anita recibió la esperada llamada de las autoridades, pero las noticias no eran alentadoras. Un cuerpo en descomposición, envuelto en sábanas, fue hallado en un terreno baldío.
+  El presunto autor fue identificado como Juan Fernando N, un expolicía, de 37 años de edad, que tenía dos órdenes de aprehensión pendientes por ejecutar y antecedentes penales por delitos sexuales. Ana fue una víctima más de este homicida, quien fue finalmente detenido días después del crimen.
+            "
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView456"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/mujeruno"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

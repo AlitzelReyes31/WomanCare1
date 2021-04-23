@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Imagenes">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/corazon" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="432dp"
+                android:layout_height="267dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fondo" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
